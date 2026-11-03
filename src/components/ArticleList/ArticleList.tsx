@@ -1878,7 +1878,7 @@ export function ArticleRow({ article, viewMode, showSource, rowActions, favicon,
         )}
         <span
           dir="auto"
-          className={`article-title truncate flex-1 ${article.read ? 'font-normal' : 'font-medium'}`}
+          className={`article-title flex-1 ${article.read ? 'font-normal' : 'font-medium'}`}
           data-theme={article.read ? 'list-title-read' : 'list-title'}
           style={{ color: article.read ? 'var(--list-title-read)' : 'var(--list-title)', fontSize: 'var(--fs-list-title)' }}
         >
