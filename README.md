@@ -37,6 +37,7 @@
 
 * **Title Text Wrapping:** Removed line truncation on article titles in compact view for full title visibility.
 * **Sidebar:** Removed the **Favorites** and **Tags** sections to keep the navigation menu clean and minimal.
+* **Icons:** Changed icons to the RSS logo
 ## Preview
 
 <div align="center">
