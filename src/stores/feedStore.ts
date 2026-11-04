@@ -556,7 +556,8 @@ function reconcile(articles: Article[], filter: Filter, since: number): Article[
     const s = useFeedStore.getState();
     return s.selectedArticle?.id === row.id || s.articles.some((a) => a.id === row.id);
   };
-  return localWrites.overlay(scope, applyQueued(articles, scope, keep), since, keep);
+  const resolved = localWrites.overlay(scope, applyQueued(articles, scope, keep), since, keep);
+  return [...resolved].sort((a,b) => b.published - a.published);
 }
 
 /**
