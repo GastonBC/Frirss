@@ -1,8 +1,9 @@
 <div align="center">
   <img src="public/logo_frirss.png" alt="" width="96" />
-  <h1>FriRSS</h1>
+  <h1>FriRSS (Forked)</h1>
   <p><em>Your FriRSS, your rules.</em></p>
   <p>A self-hosted, customizable web frontend for <a href="https://freshrss.org">FreshRSS</a>.</p>
+
 
   <p>
     <img src="https://flagcdn.com/24x18/fr.png" alt="Français" />&nbsp;
@@ -32,6 +33,10 @@
   </p>
 </div>
 
+### 🔧 Custom Fork Modifications
+
+* **Title Text Wrapping:** Removed line truncation on article titles in compact view for full title visibility.
+* **Sidebar:** Removed the **Favorites** and **Tags** sections to keep the navigation menu clean and minimal.
 ## Preview
 
 <div align="center">
